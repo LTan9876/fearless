@@ -12,6 +12,8 @@ Countapi was integrated with the key 1ccb732e-b55a-4404-ad3f-0f99c02fe44e.
 
 In your console, run "npm start", it should open the project on http://localhost:3000.
 
+The port can be modified on package.json, in the scripts section, with the start command.  For example, instead of "start: PORT=3000 react-scripts start", it can be specified to another port - swithcing it to "start: PORT=3006 react-scripts start" will lead to the application being open on port 3006.
+
 ## Future Updates To Add
 
 There could be more counters/buttons added in the future, to show the hits of other sites.  

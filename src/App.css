@@ -40,3 +40,11 @@
 h1 {
   color: purple;
 }
+
+button {
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: white;
+  color: purple;
+  border: 2px solid #800080;
+}
